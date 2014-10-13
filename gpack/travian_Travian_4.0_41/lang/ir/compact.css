@@ -294,7 +294,7 @@ body.fullScreen #mapContainer.lowRes #mapCoordEnter{bottom:0;}#mapContainer.lowR
 .ie6 #mapContainer.lowRes #mapCoordEnter label{float:left;margin-right:5px;}#mapContainer.lowRes #mapCoordEnter div.xCoord,#mapContainer.lowRes #mapCoordEnter div.yCoord{margin-left:5px!important;}
 .ie6 #mapContainer.lowRes #mapCoordEnter div.xCoord,.ie6 #mapContainer.lowRes #mapCoordEnter div.yCoord{margin-left:3px!important;white-space:nowrap;width:55px;}
 .ie6 #mapContainer.lowRes #mapCoordEnter div.coordinatesInput{margin-right:5px;}
-#mapContainer.lowRes .ruler.x{position:relative;left:0;overflow:hidden;height:16px;}
+#mapContainer.lowRes .ruler.x{position:relative;left:0;overflow:hidden;height:16px;background:white;}
 #mapContainer.lowRes .ruler.x .rulerContainer{position:absolute;left:0;top:0;height:100%;background-position:left top;background-color:transparent;background-repeat:repeat-x;background-image:url("../../img/map/lowRes/rulers/x-1.gif");}
 #mapContainer.lowRes .ruler.x .coordinate{width:60px;float:left;}#mapContainer.lowRes .ruler.y{position:absolute;top:0;bottom:0;overflow:hidden;left:-27px;width:27px;z-index:2;}
 .ie6 #mapContainer.lowRes .ruler.y{height:420px;}#mapContainer.lowRes .ruler.y .rulerContainer{position:absolute;left:0;top:0;width:100%;background-position:left -1px;background-color:transparent;background-repeat:repeat-y;background-image:url("../../img/map/lowRes/rulers/y-1.gif");}
