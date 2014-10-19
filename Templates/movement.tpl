@@ -61,7 +61,6 @@ $lala = count($units_type);
 /* Units send to reinf. (from my town) */
 $aantal = count($database->getMovement2(7,$village->wid,0));
 $aantal2 = $database->getMovement2(7,$village->wid,0);
-print_r($aantal2);
 for($i=0;$i<$aantal;$i++){
 	if(($aantal2[$i]['attack_type']==1) or ($aantal2[$i]['attack_type']==9)){
 		$aantal -= 1;}
